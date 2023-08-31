@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "logis-base",
+    "slug": "logis-base",
+    "extra": {
+      "eas": {
+        "projectId": "0091d133-6ace-44f5-a255-6f156e797ed0"
+      }
+    }
+  }
+}
