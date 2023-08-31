@@ -16,6 +16,9 @@
       "eas": {
         "projectId": "0091d133-6ace-44f5-a255-6f156e797ed0"
       }
+    },
+    "android": {
+      "package": "com.pcrubianoa.logisbase"
     }
   }
 }

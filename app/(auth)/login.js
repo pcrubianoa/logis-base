@@ -71,9 +71,10 @@ export default function LogIn() {
               passwordRef.current
               );
               if(data.success) {
+                setIsValid(true);
                 router.replace("/(tabs)/home");
               } else {
-                setIsValid(true);
+                setIsValid(false);
               }
           }}
           style={styles.button}
